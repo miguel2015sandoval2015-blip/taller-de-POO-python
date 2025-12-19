@@ -19,7 +19,7 @@ class BaseDatos:
             print("combustible: ", v.combustible) 
             
             
-            v.mostrar_extra()          
+            v.mostrar_extra()
+                          
             
-
             print("------------------")    
