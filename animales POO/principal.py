@@ -10,7 +10,7 @@ bd = BASE_DATOS()
 a1 = Caballo("caballo criollo", 5, "potrero", "herbivoro", "grande", "marron",60)
 a2 = Cocodrilo("cocodrilo del llano", 12, "llanura", "carnivoro", "grande","verde",5)
 a3 = Pez("pez payaso",2,"oceano","omnivoro","pequeño","naranja","salada")
-a4 = Escarabajo("escarabajo rinoceronte", 1,"bosque", "detritivo", "pequeño","negro","dynastine")
+a4 = Escarabajo("escarabajo rinoceronte", 1,"bosque", "detritivo", "pequeño","negro","dinastia")
 a5 = pato("pato criollo",3,"lago","omnivoro","mediano","blanco","ancho")
 
 bd.agregar_dato(a1)
@@ -20,5 +20,6 @@ bd.agregar_dato(a4)
 bd.agregar_dato(a5)
 
 bd.mostrar_datos()
+
 
 bd.eliminar_dato(1)
