@@ -32,4 +32,8 @@ class vehiculo :
         print (self.modelo + "tiene sistema de ventanas")
         
     def espejos(self):
-        print (self.modelo + "los espejos estan operativos")                             
+
+        print (self.modelo + "los espejos estan operativos") 
+
+    def mostrar_extra(self):
+        print ("capacidad de carga")
