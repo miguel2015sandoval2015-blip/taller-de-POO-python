@@ -9,4 +9,8 @@ class volqueta(vehiculo):
         print(self.modelo , "esta cargando material. capacidad" + self.capacidad_carga, "toneladas")
         
     def descargar_material(self):
-        print(self.modelo, "descarga material")         
+
+        print(self.modelo, "descarga material")  
+
+    def mostrar_extra(self):
+        print("capacidad de carga:", self.capacidad_carga, "toneladas")
