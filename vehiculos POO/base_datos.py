@@ -19,7 +19,7 @@ class BaseDatos:
             print("combustible: ", v.combustible) 
             
             
-            if isinstance(v,volqueta):
-                print("capacidad de carga", v.capacidad_carga, "toneladas")          
+            v.mostrar_extra()          
             
+
             print("------------------")    
